@@ -57,11 +57,11 @@ UART Mapping
 ============
 
  - SERIAL0 -> console (primary mavlink, usually USB)
- - SERIAL1 -> USART2  (telem1)
- - SERIAL2 -> USART3  (Telem2)
+ - SERIAL1 -> USART2  (telem1,DMA-enabled)
+ - SERIAL2 -> USART3  (Telem2,DMA-enabled)
  - SERIAL3 -> UART4   (GPS1)
  - SERIAL4 -> UART8   (GPS2)
- - SERIAL5 -> UART7   (USER)
+ - SERIAL5 -> UART7   (USER,DMA-enabled)
  
  Connector pin assignments
 =========================
